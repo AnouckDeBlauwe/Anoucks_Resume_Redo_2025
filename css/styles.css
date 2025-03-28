@@ -1,0 +1,68 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #202030;
+	background-color: #f8f8fc;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+	font-family: "Roboto Mono", monospace;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #959D90;
+	color: #E8D9CD
+		
+}
+
+.resume-main {
+	font-family: "Roboto Mono", monospace;
+	background-color: #BBA58F;
+	color: #523D35
+		
+}
+
+.resume-aside {
+	font-family: "Roboto Mono", monospace;
+	background-color: #E8D9CD;
+	color: #959D90
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #E8D9CD;
+	
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+	color: #523D35
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color: #523D35
+}
